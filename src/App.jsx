@@ -17,21 +17,22 @@ const App = () => {
   return (
   
     <Router>
-      <Switch>
-      <Route exact path="/">
+      {/* <Switch> */}
+       {/* <Route exact path="/">
            <Login/>
-           </Route>
+           </Route>  */}
          
      <Topbar />
-     
+    
       <div className="containe">
-      <Sidebar />
       
-        <Route path="/home">
+      <Sidebar />
+      <Switch>
+        <Route exact path="/">
         
           <Home />
           </Route>
-          <Switch>
+          
           <Route path="/users">
             <UserList />
           </Route>
@@ -55,7 +56,7 @@ const App = () => {
           </Route>
           </Switch>
           </div>
-          </Switch>
+          {/* </Switch> */}
           
          
            

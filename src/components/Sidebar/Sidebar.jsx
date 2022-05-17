@@ -16,7 +16,7 @@ function Sidebar() {
                 <ul className='mainsidebarList '>
                     <li className='mainsidebar'><a className="mainsidebarListItem">Dashboard < ArrowDropDownTwoTone/></a>
                     <ul className="sidebarList">
-                    <Link to='/home' className='link'>
+                    <Link to='/' className='link'>
                     <li className="sidebarListItem">
                         <LineStyle/>
                         Home
